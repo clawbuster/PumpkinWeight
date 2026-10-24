@@ -22,6 +22,26 @@ class Estimate:
     note: str = ""
 
 
+def _validate_pile_weights(groups: dict) -> None:
+    """An unchanged physical sample must have one measured mass across its photos."""
+    conflicts = []
+    for key, group in groups.items():
+        weights = [float(s.weight_g) for s in group]
+        if any(not math.isfinite(w) or w < 0 for w in weights):
+            raise ValueError("Measured weights must be finite and nonnegative")
+        if max(weights) - min(weights) > 1e-6:
+            details = ", ".join(f"{s.file}={float(s.weight_g):g} g" for s in group)
+            conflicts.append(f"  {key}: {details}")
+    if conflicts:
+        raise ValueError(
+            "Conflicting measured weights within the same pile_id:\n"
+            + "\n".join(conflicts)
+            + "\nUse one weight for repeated photos of an unchanged sample. "
+              "If seeds were added or removed, assign that sample a different pile_id. "
+              "Check the original measurements before recalibrating."
+        )
+
+
 class WeightModel:
     """Interface. Subclass, set ``name``/``description``, implement ``fit`` and ``predict``.
 
@@ -86,6 +106,7 @@ class FeatureTimesConstant(WeightModel):
         piles for split-conformal prediction intervals, then an independent test.
         """
         groups = group_samples(samples.with_weight())
+        _validate_pile_weights(groups)
         ratios, by_crop = {}, {}
         for key, group in groups.items():
             for s in group:
@@ -136,6 +157,7 @@ class FeatureTimesConstant(WeightModel):
         if any(not s.meta.get("pile_id") for s in samples):
             raise ValueError("Every interval-calibration sample needs a globally unique pile_id")
         groups = group_samples(samples)
+        _validate_pile_weights(groups)
         overlap = set(groups) & set(self.fit_groups)
         if overlap:
             raise ValueError("Interval-calibration piles overlap fitted piles; use new physical samples")
