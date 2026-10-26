@@ -1,0 +1,667 @@
+{
+ "J0010_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0010",
+  "total_weight_g": 26.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-21T22:57:08",
+  "proposer": "rfdetr"
+ },
+ "J0011_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0011",
+  "total_weight_g": 37.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T22:59:39"
+ },
+ "J0012_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0012",
+  "total_weight_g": 50.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:00:47"
+ },
+ "J001_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J001",
+  "total_weight_g": 4.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:01:17"
+ },
+ "J001_02.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J001",
+  "total_weight_g": 4.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:03:35"
+ },
+ "J002_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J002",
+  "total_weight_g": 1.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:03:51"
+ },
+ "J003_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J003",
+  "total_weight_g": 7.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:03:55"
+ },
+ "J004_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J004",
+  "total_weight_g": 6.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:03:57"
+ },
+ "J005_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J005",
+  "total_weight_g": 2.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:04:20"
+ },
+ "J005_02.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J005",
+  "total_weight_g": 2.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:04:24"
+ },
+ "J005_03.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J005",
+  "total_weight_g": 2.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:04:27"
+ },
+ "J006_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J006",
+  "total_weight_g": 7.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:06:51"
+ },
+ "J007_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J007",
+  "total_weight_g": 8.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:07:29"
+ },
+ "J008_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J008",
+  "total_weight_g": 10.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:09:06"
+ },
+ "J009_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J009",
+  "total_weight_g": 14.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:10:45"
+ },
+ "J0013_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0013",
+  "total_weight_g": 33.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-23T19:14:35",
+  "proposer": "rfdetr"
+ },
+ "J0013_02.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0013",
+  "total_weight_g": 33.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-23T19:14:58",
+  "proposer": "rfdetr"
+ },
+ "J0014__01.jpg": {
+  "reviewed": true,
+  "crop": "pumpkin",
+  "pile_id": "J0014",
+  "total_weight_g": 6.0,
+  "reviewed_at": "2026-10-21T23:51:22",
+  "proposer": "rfdetr"
+ },
+ "J0015_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0015",
+  "total_weight_g": 9.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-21T23:55:25",
+  "proposer": "rfdetr"
+ },
+ "J0015_02.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0015",
+  "total_weight_g": 9.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:57:23"
+ },
+ "J0016_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0016",
+  "total_weight_g": 3.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:57:35"
+ },
+ "J0016_02.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0016",
+  "total_weight_g": 3.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:57:38"
+ },
+ "J0017_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0017",
+  "total_weight_g": 7.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-23T19:17:45"
+ },
+ "J0018_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0018",
+  "total_weight_g": 4.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-21T23:58:02"
+ },
+ "J0019_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0019",
+  "total_weight_g": 15.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:00:45"
+ },
+ "J0020_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0020",
+  "total_weight_g": 11.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-23T19:20:37"
+ },
+ "J0021_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0021",
+  "total_weight_g": 2.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:02:00"
+ },
+ "J0022_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0022",
+  "total_weight_g": 9.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:03:38"
+ },
+ "J0023_01.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0023",
+  "total_weight_g": 12.0,
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "reviewed_at": "2026-10-22T00:03:48"
+ },
+ "IMG_1016.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0024",
+  "total_weight_g": 4.0,
+  "reviewed_at": "2026-10-23T21:39:16"
+ },
+ "IMG_1017.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0024",
+  "total_weight_g": 4.0,
+  "reviewed_at": "2026-10-23T21:39:43"
+ },
+ "IMG_1018.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0025",
+  "total_weight_g": 2.0,
+  "reviewed_at": "2026-10-23T21:40:36"
+ },
+ "IMG_1019.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0025",
+  "total_weight_g": 2.0,
+  "reviewed_at": "2026-10-23T21:41:22"
+ },
+ "IMG_1020.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0025",
+  "total_weight_g": 2.0,
+  "reviewed_at": "2026-10-23T22:19:28"
+ },
+ "IMG_1021.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0026",
+  "total_weight_g": 7.0,
+  "reviewed_at": "2026-10-23T21:42:25"
+ },
+ "IMG_1022.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0026",
+  "total_weight_g": null,
+  "reviewed_at": "2026-10-23T23:03:02"
+ },
+ "IMG_1023.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0026",
+  "total_weight_g": 7.0,
+  "reviewed_at": "2026-10-23T21:43:27"
+ },
+ "IMG_1024.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0027",
+  "total_weight_g": null,
+  "reviewed_at": "2026-10-23T23:04:16"
+ },
+ "IMG_1025.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0027",
+  "total_weight_g": 11.0,
+  "reviewed_at": "2026-10-23T21:44:30"
+ },
+ "IMG_1026.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0071",
+  "total_weight_g": 13.0,
+  "reviewed_at": "2026-10-24T20:40:49"
+ },
+ "IMG_1015.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0024",
+  "total_weight_g": 4.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-23T21:45:41",
+  "proposer": "rfdetr"
+ },
+ "10.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0028",
+  "total_weight_g": 10.0,
+  "reviewed_at": "2026-10-23T21:53:15"
+ },
+ "10diff.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0029",
+  "total_weight_g": 9.0,
+  "reviewed_at": "2026-10-23T23:10:58"
+ },
+ "11dif.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0030",
+  "total_weight_g": 11.0,
+  "reviewed_at": "2026-10-23T21:54:56"
+ },
+ "13.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0031",
+  "total_weight_g": 10.0,
+  "reviewed_at": "2026-10-23T23:13:02"
+ },
+ "14.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0032",
+  "total_weight_g": 14.0,
+  "reviewed_at": "2026-10-24T00:06:48"
+ },
+ "15diff.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0033",
+  "total_weight_g": 15.0,
+  "reviewed_at": "2026-10-23T21:56:04"
+ },
+ "18.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0035",
+  "total_weight_g": 18.0,
+  "reviewed_at": "2026-10-23T21:56:38"
+ },
+ "20261023_195900.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0036",
+  "total_weight_g": 10.0,
+  "reviewed_at": "2026-10-23T23:13:18"
+ },
+ "22.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0037",
+  "total_weight_g": 23.0,
+  "reviewed_at": "2026-10-23T23:14:14"
+ },
+ "24.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0038",
+  "total_weight_g": 24.0,
+  "reviewed_at": "2026-10-23T21:58:08"
+ },
+ "36.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0039",
+  "total_weight_g": null,
+  "reviewed_at": "2026-10-23T23:02:13"
+ },
+ "39.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0039",
+  "total_weight_g": null,
+  "reviewed_at": "2026-10-23T23:02:20"
+ },
+ "5.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0040",
+  "total_weight_g": 5.0,
+  "reviewed_at": "2026-10-23T22:10:45"
+ },
+ "5diff.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0041",
+  "total_weight_g": 4.0,
+  "reviewed_at": "2026-10-23T23:16:46"
+ },
+ "8.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0042",
+  "total_weight_g": 8.0,
+  "reviewed_at": "2026-10-23T22:12:54"
+ },
+ "8diff.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0043",
+  "total_weight_g": null,
+  "reviewed_at": "2026-10-24T20:44:28"
+ },
+ "20261024_001339.jpg": {
+  "reviewed": false,
+  "proposer": "rfdetr"
+ },
+ "20261024_001639.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0045",
+  "total_weight_g": 13.0,
+  "reviewed_at": "2026-10-24T00:26:36"
+ },
+ "20261024_001728.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0044",
+  "total_weight_g": 5.0,
+  "reviewed_at": "2026-10-24T00:25:33"
+ },
+ "20261024_001941.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0044",
+  "total_weight_g": 5.0,
+  "reviewed_at": "2026-10-24T00:25:55"
+ },
+ "20261024_000008.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0046",
+  "total_weight_g": 8.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T00:30:36",
+  "proposer": "rfdetr"
+ },
+ "20261024_164044.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0050",
+  "total_weight_g": 11.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T16:46:02",
+  "proposer": "rfdetr"
+ },
+ "20261024_164105.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0050",
+  "total_weight_g": 11.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T16:46:47",
+  "proposer": "rfdetr"
+ },
+ "20261024_165432.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0051",
+  "total_weight_g": 17.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T16:56:59",
+  "proposer": "rfdetr"
+ },
+ "20261024_165119.jpg": {
+  "crop": "pumpkin",
+  "pile_id": "J0052",
+  "total_weight_g": 5.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T16:57:42",
+  "proposer": "rfdetr"
+ },
+ "17n.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0051",
+  "total_weight_g": 17.0,
+  "reviewed_at": "2026-10-24T17:37:54"
+ },
+ "19n.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0053",
+  "total_weight_g": 19.0,
+  "reviewed_at": "2026-10-24T17:34:42"
+ },
+ "19n2.jpg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0053",
+  "total_weight_g": 19.0,
+  "reviewed_at": "2026-10-24T17:35:11"
+ },
+ "14.jpeg": {
+  "crop": "pumpkin",
+  "total_weight_g": 14.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T20:42:21",
+  "proposer": "rfdetr",
+  "pile_id": "J0072"
+ },
+ "16c.jpeg": {
+  "crop": "pumpkin",
+  "pile_id": "J0056",
+  "total_weight_g": 16.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T18:05:21",
+  "proposer": "rfdetr"
+ },
+ "16s.jpeg": {
+  "crop": "pumpkin",
+  "pile_id": "J0056",
+  "total_weight_g": 16.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T18:05:40",
+  "proposer": "rfdetr"
+ },
+ "18c.jpeg": {
+  "crop": "pumpkin",
+  "pile_id": "J0057",
+  "total_weight_g": 18.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T18:06:29",
+  "proposer": "rfdetr"
+ },
+ "7c.jpeg": {
+  "crop": "pumpkin",
+  "pile_id": "J0070",
+  "total_weight_g": 7.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T20:39:29",
+  "proposer": "rfdetr"
+ },
+ "7s.jpeg": {
+  "crop": "pumpkin",
+  "pile_id": "J0070",
+  "total_weight_g": 7.0,
+  "reviewed": true,
+  "reviewed_at": "2026-10-24T20:40:06",
+  "proposer": "rfdetr"
+ },
+ "6n.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0058",
+  "total_weight_g": 6.0,
+  "reviewed_at": "2026-10-24T19:32:06"
+ },
+ "6n2.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0058",
+  "total_weight_g": 6.0,
+  "reviewed_at": "2026-10-24T19:32:27"
+ },
+ "6n3.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0058",
+  "total_weight_g": 6.0,
+  "reviewed_at": "2026-10-24T19:32:43"
+ },
+ "8n.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0060",
+  "total_weight_g": 8.0,
+  "reviewed_at": "2026-10-24T19:35:06"
+ },
+ "8n2.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0060",
+  "total_weight_g": 8.0,
+  "reviewed_at": "2026-10-24T19:35:18"
+ },
+ "8n3.jpeg": {
+  "reviewed": false,
+  "proposer": "rfdetr"
+ },
+ "7n.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0059",
+  "total_weight_g": 7.0,
+  "manual_count": 57,
+  "reviewed_at": "2026-10-24T19:34:09"
+ },
+ "7n2.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0059",
+  "total_weight_g": 7.0,
+  "reviewed_at": "2026-10-24T19:34:24"
+ },
+ "7n3.jpeg": {
+  "reviewed": true,
+  "proposer": "rfdetr",
+  "crop": "pumpkin",
+  "pile_id": "J0059",
+  "total_weight_g": 7.0,
+  "reviewed_at": "2026-10-24T19:34:36"
+ }
+}

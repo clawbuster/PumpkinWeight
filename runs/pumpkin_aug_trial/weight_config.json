@@ -1,0 +1,91 @@
+{
+  "model": "count_x_constant",
+  "constants": {
+    "default": 0.117427932746385,
+    "wheat": 0.04,
+    "sunflower": 0.05,
+    "pumpkin": 0.117427932746385
+  },
+  "area_constants": {},
+  "fitted_models": {
+    "count_x_constant": {
+      "name": "count_x_constant",
+      "params": {
+        "constants": {
+          "default": 0.117427932746385,
+          "wheat": 0.04,
+          "sunflower": 0.05,
+          "pumpkin": 0.117427932746385
+        },
+        "bounds": {
+          "pumpkin": {
+            "method": "exploratory_lopo",
+            "q_g": 2.1338747964494633,
+            "n_piles": 55,
+            "constant": 0.117427932746385,
+            "feature_min": 12,
+            "feature_max": 416
+          }
+        },
+        "fit_groups": [
+          "[\"pumpkin\", \"J001\"]",
+          "[\"pumpkin\", \"J0010\"]",
+          "[\"pumpkin\", \"J0011\"]",
+          "[\"pumpkin\", \"J0012\"]",
+          "[\"pumpkin\", \"J0013\"]",
+          "[\"pumpkin\", \"J0014\"]",
+          "[\"pumpkin\", \"J0015\"]",
+          "[\"pumpkin\", \"J0016\"]",
+          "[\"pumpkin\", \"J0017\"]",
+          "[\"pumpkin\", \"J0018\"]",
+          "[\"pumpkin\", \"J0019\"]",
+          "[\"pumpkin\", \"J002\"]",
+          "[\"pumpkin\", \"J0020\"]",
+          "[\"pumpkin\", \"J0021\"]",
+          "[\"pumpkin\", \"J0022\"]",
+          "[\"pumpkin\", \"J0023\"]",
+          "[\"pumpkin\", \"J0024\"]",
+          "[\"pumpkin\", \"J0025\"]",
+          "[\"pumpkin\", \"J0026\"]",
+          "[\"pumpkin\", \"J0027\"]",
+          "[\"pumpkin\", \"J0028\"]",
+          "[\"pumpkin\", \"J0029\"]",
+          "[\"pumpkin\", \"J003\"]",
+          "[\"pumpkin\", \"J0030\"]",
+          "[\"pumpkin\", \"J0031\"]",
+          "[\"pumpkin\", \"J0032\"]",
+          "[\"pumpkin\", \"J0033\"]",
+          "[\"pumpkin\", \"J0035\"]",
+          "[\"pumpkin\", \"J0036\"]",
+          "[\"pumpkin\", \"J0037\"]",
+          "[\"pumpkin\", \"J0038\"]",
+          "[\"pumpkin\", \"J004\"]",
+          "[\"pumpkin\", \"J0040\"]",
+          "[\"pumpkin\", \"J0041\"]",
+          "[\"pumpkin\", \"J0042\"]",
+          "[\"pumpkin\", \"J0044\"]",
+          "[\"pumpkin\", \"J0045\"]",
+          "[\"pumpkin\", \"J0046\"]",
+          "[\"pumpkin\", \"J005\"]",
+          "[\"pumpkin\", \"J0050\"]",
+          "[\"pumpkin\", \"J0051\"]",
+          "[\"pumpkin\", \"J0052\"]",
+          "[\"pumpkin\", \"J0053\"]",
+          "[\"pumpkin\", \"J0056\"]",
+          "[\"pumpkin\", \"J0057\"]",
+          "[\"pumpkin\", \"J0058\"]",
+          "[\"pumpkin\", \"J0059\"]",
+          "[\"pumpkin\", \"J006\"]",
+          "[\"pumpkin\", \"J0060\"]",
+          "[\"pumpkin\", \"J007\"]",
+          "[\"pumpkin\", \"J0070\"]",
+          "[\"pumpkin\", \"J0071\"]",
+          "[\"pumpkin\", \"J0072\"]",
+          "[\"pumpkin\", \"J008\"]",
+          "[\"pumpkin\", \"J009\"]"
+        ],
+        "calibration_groups": []
+      }
+    }
+  }
+}

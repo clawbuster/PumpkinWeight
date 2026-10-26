@@ -1,0 +1,21 @@
+{
+  "model_id": "weights\\grain_rfdetr_small_v1\\final",
+  "classes": [
+    "corn",
+    "peanuts",
+    "popcorn_corn",
+    "pumpkin",
+    "sunflower",
+    "wheat"
+  ],
+  "epochs": 20,
+  "batch_size": 1,
+  "augment": true,
+  "seed": 1337,
+  "lr": 1e-05,
+  "grad_accum": 1,
+  "tile_params": {
+    "tile": 1500,
+    "overlap": 0.2
+  }
+}

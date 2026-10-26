@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "corn",
+    "peanuts",
+    "popcorn_corn",
+    "pumpkin",
+    "sunflower",
+    "wheat"
+  ],
+  "tile": 1500,
+  "overlap": 0.2,
+  "crops": null,
+  "flow": "gpu",
+  "device": "cuda",
+  "proposer_ckpt": "weights\\grain_rfdetr_small_v1\\final",
+  "train_model": "small",
+  "train_batch": 4,
+  "train_workers": 2,
+  "extra_image_fields": []
+}
