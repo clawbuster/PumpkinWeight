@@ -142,3 +142,63 @@ runs/             YOUR data and checkpoints (git-ignored)
 6. Keep every checkpoint you report from. Never paste your `HF_TOKEN`.
 
 
+
+# Notes to have it running with our updated calibrations of RF detector and countx
+Running the submitted pumpkin-seed model
+
+The application detects pumpkin seeds with the trained RF-DETR checkpoint, counts the detections, and estimates mass using the saved grams-per-seed calibration. The submitted detector and calibration are loaded directly; retraining is not required to run inference.
+
+Requirements
+
+Windows PowerShell for the commands below.
+
+Git and Git LFS.
+
+uv for dependency installation and Python environment management.
+
+Internet access for the initial model and dependency downloads.
+
+An NVIDIA GPU is optional. The default instructions use the CPU.
+
+1. Clone the repository and download the model
+
+git lfs install
+git clone "[link_to_repo](https://github.com/clawbuster/PumpkinWeight.git)" pumpkin-seed-project
+cd pumpkin-seed-project
+git lfs pull
+git lfs ls-files
+
+Git LFS downloads the actual checkpoint binaries. Run all remaining commands from the repository root, where pyproject.toml and uv.lock are located.
+
+2. Install dependencies
+
+If uv is not installed, install it once:
+
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+If uv is not recognised afterward, reopen PowerShell and return to the cloned project folder.
+
+Install the CPU environment:
+
+uv sync --locked --python 3.12 --extra cpu --extra app
+.\.venv\Scripts\python.exe -m detkit doctor
+
+uv creates .venv and installs the locked dependencies, downloading Python 3.12 if needed. The commands below use this environment's Python directly, so environment activation is unnecessary.
+
+3. Start the application
+
+.\.venv\Scripts\python.exe -m detkit app --workdir runs/pumpkin_aug_trial --ckpt runs/pumpkin_aug_trial/checkpoints/pumpkin_aug_v1/final --device cpu
+
+Open http://127.0.0.1:7860 in a browser on the same computer. Keep the terminal running while using the application; press Ctrl+C in that terminal to stop it.
+
+
+Optional: run on an NVIDIA GPU
+
+With a supported NVIDIA GPU and compatible driver, install the GPU environment instead of the CPU environment:
+
+uv sync --locked --python 3.12 --extra gpu --extra app
+.\.venv\Scripts\python.exe -c "import torch; print('CUDA available:', torch.cuda.is_available())"
+
+If the check prints True, launch with CUDA:
+
+.\.venv\Scripts\python.exe -m detkit app --workdir runs/pumpkin_aug_trial --ckpt runs/pumpkin_aug_trial/checkpoints/pumpkin_aug_v1/final --device cuda
